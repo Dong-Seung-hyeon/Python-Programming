@@ -160,3 +160,14 @@ print((num > 2020) and (num < 2030))
 # ex 3-13
 year = int(input('연도를 입력하세요 : '))
 print(((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0))
+
+# ex 3-14
+a = int(input('첫 번째 수를 입력하세요 : '))
+b = int(input('두 번째 수를 입력하세요 : '))
+print('-' * 40 )
+print('a = ', a, ":", bin(a))
+print('b = ', b, ":", bin(b))
+print('a & b = ', a & b, ":", bin(a & b))
+print('a | b = ', a | b, ":", bin(a | b))
+print('a ^ b = ', a ^ b, ":", bin(a ^ b))
+print('~a = ', ~a, ":", bin(~a))
