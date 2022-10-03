@@ -191,3 +191,12 @@ a = a >> 2 # / 2
 print('a >> 2 = ', a, ":", bin(a))
 a = a >> 3 # / 2**3
 print('a >> 3 = ', a, ":", bin(a))
+
+# ex 3-16
+a = int(input('첫 번째 수를 입력하세요 : '))
+b = int(input('두 번째 수를 입력하세요 : '))
+# 2의 보수를 이용한 뺄셈
+c = a - b
+d = a + (~b + 1)
+print('a - b = ', c)
+print('a + (~b + 1) = ', d)
