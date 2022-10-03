@@ -66,3 +66,12 @@ print("{0} // {1} = {2}".format(a, b, a//b))
 print("{0} % {1} = {2}".format(a, b, a%b))
 print("{0} ** {1} = {2}".format(a, b, a**b))
 print("-"*20)
+
+# ex 3-5
+print(9/2)
+print(9/-2)
+print(9//-2)
+print(9%-2)
+print(-9/2)
+print(-9//2)
+print(-9%2)
