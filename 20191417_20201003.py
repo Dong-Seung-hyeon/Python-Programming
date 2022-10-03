@@ -156,3 +156,7 @@ print(id(str4))
 # ex 3-12
 num = int(input('조건을 확인하고자 하는 수를 입력하세요 : '))
 print((num > 2020) and (num < 2030))
+
+# ex 3-13
+year = int(input('연도를 입력하세요 : '))
+print(((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0))
