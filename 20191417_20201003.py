@@ -75,3 +75,20 @@ print(9%-2)
 print(-9/2)
 print(-9//2)
 print(-9%2)
+
+# ex 3-6
+x = 5
+x += 2
+print(x)
+x -= 2
+print(x)
+x *= 2
+print(x)
+x /= 2 # x = x/2
+print(x)
+x **= 2 # x = x ** 2
+print(x)
+x //= 2
+print(x)
+x %= 2
+print(x)
