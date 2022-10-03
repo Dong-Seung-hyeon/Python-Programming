@@ -124,3 +124,31 @@ print(2020 == 2020.0)
 print(2020 is 2020.0)
 print('a' < 'b')
 print('ab' < "abc")
+
+# ex 3-10
+no1 = 1
+no2 = 1
+str1 = 'life'
+str2 = 'life'
+print(no1 == no2)
+print(no1 is no2)
+print(str1 == str2)
+print(str1 is str2)
+print(id(no1))
+print(id(no2))
+print(id(str1))
+print(id(str2))
+
+# ex 3-11
+no3 = 12345
+no4 = 12345
+str3 = '죽는 날까지 하늘을 우러러 한 점 부끄러움 없기를...'
+str4 = '죽는 날까지 하늘을 우러러 한 점 부끄러움 없기를...'
+print(no3 == no4)
+print(no3 is no4)
+print(str3 == str4)
+print(str3 is str4)
+print(id(no3))
+print(id(no4))
+print(id(str3))
+print(id(str4))
