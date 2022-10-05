@@ -27,6 +27,17 @@ else :
 
 print('프로그램 종료')
 
+age = int(input('나이를 입력하세요: '))
+if(age >= 18):
+    score = int(input('점수를 입력하세요: '))
+    if(score >= 80):
+        print('%d점으로 합격입니다.'%score)
+    else:
+        print('%d점으로 불합격입니다.'%score)
+else:
+    print('나이가 %d세로 18살 미만으로 불합격입니다.')
+print()
+
 # ex 4-4
 a = int(input('1에서 10 사이의 정수를 입력하세요 : '))
 if (a >= 0) : 
