@@ -67,3 +67,13 @@ elif a < -10 :
 else : 
     print('입력한 정수는 %d이고 음수임' % a)
 
+# ex 4-8
+pocket = []
+pocket.append(input('주머니에 있는 것은?(money, card, ...) : '))
+if 'money' in pocket:
+    print('택시 타고 가자~~')
+elif 'card' in pocket:
+    print('모범택시 타고 가자^^')
+else:
+    print('걸어가야겠다 :)')
+
