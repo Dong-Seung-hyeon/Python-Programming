@@ -213,7 +213,7 @@ b = int(input('b에 수를 입력하세요 : '))
 print(a)
 print(b)
 
-if a > b :
+if a < b :
     print("a = {0} b = {1}".format(a, b))
 else :
     print("a = {0} b = {1}".format(a, b))
