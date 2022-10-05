@@ -204,3 +204,16 @@ if (((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0)) :
     print('%d년은 윤년입니다.' % year)
 else : 
     print('%d년은 평년입니다.' % year)
+
+# 작은 수를 a에 큰 수를 b에 저장하는 예제
+print('작은 수를 a에 큰 수를 b에 저장하는 예제')
+a = int(input('a에 수를 입력하세요 : '))
+b = int(input('b에 수를 입력하세요 : '))
+
+print(a)
+print(b)
+
+if a > b :
+    print("a = {0} b = {1}".format(a, b))
+else :
+    print("a = {0} b = {1}".format(a, b))
