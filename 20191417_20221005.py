@@ -34,3 +34,14 @@ if (a >= 0) :
 else : 
     print('입력한 정수는 %d이고 음수임' % a)
 
+# ex 4-5
+age = int(input('나이를 입력하세요 : '))
+score = int(input('점수를 입려하세요 : '))
+if age >= 20 :
+    if score >= 80 :
+        print('합격입니다!')
+    else : 
+        print('점수가 낮아 불합격입니다!')
+else : 
+    print('너무 어려서 불합격입니다!')
+
