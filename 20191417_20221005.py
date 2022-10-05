@@ -237,3 +237,10 @@ else:
 for i in range(5):
     print('Hello, World!')
 
+# ex 4-13
+sum = 0
+for n in range(1, 11):
+    print(n)
+    sum += n
+print(sum)
+
