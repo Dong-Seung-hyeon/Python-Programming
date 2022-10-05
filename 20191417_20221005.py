@@ -271,3 +271,10 @@ print()
 for i in range(15, -1, -1):
     print(i, end=' ')
 print()
+
+# ex 4-16
+L1 = list(range(10))
+L2 = list(range(1, 15))
+L3 = list(range(1, 15, 2))
+L4 = list(range(15, -1, -1))
+print(L1); print(L2); print(L3); print(L4)
