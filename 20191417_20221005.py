@@ -231,3 +231,9 @@ else:
     a = b
     b = temp
     print("출력 a = %d, b = %d"%(a,b))
+
+# 반복문
+# ex 4-12
+for i in range(5):
+    print('Hello, World!')
+
