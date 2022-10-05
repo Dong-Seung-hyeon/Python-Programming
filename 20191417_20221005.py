@@ -254,3 +254,20 @@ for n in range(1, 101): # 1부터 100까지의 반복
         sum_odd += n
 print('짝수의 합 = ' , sum_even)
 print('홀수의 합 = ' , sum_odd)
+
+# ex 4-15
+for i in range(10):
+    print(i, end=' ')
+print()
+
+for i in range(1, 15):
+    print(i, end=' ')
+print()
+
+for i in range(1, 15, 2):
+    print(i, end=' ')
+print()
+
+for i in range(15, -1, -1):
+    print(i, end=' ')
+print()
