@@ -278,3 +278,10 @@ L2 = list(range(1, 15))
 L3 = list(range(1, 15, 2))
 L4 = list(range(15, -1, -1))
 print(L1); print(L2); print(L3); print(L4)
+
+# ex 4-17
+for i in range(1, 10) :
+    guguLine = ""
+    for k in range(2, 10) :
+        guguLine += str("%dX%d=%2d, " % (k, i, k*i))
+    print(guguLine)
