@@ -91,3 +91,64 @@ else :
     grade = 'F'
 print('{0}점은 "{1}" 학점입니다.'.format(score, grade))
 
+# ex 4-10
+score = int(input('점수를 입력하세요 : ')) 
+if (score >= 95) and (score <= 100):
+    grade = 'A+'
+elif score >= 90 :
+    grade = 'A'
+elif score >= 85 :
+    grade = 'B+'
+elif score >= 80 :
+    grade = 'B'
+elif score >= 75 :
+    grade = 'C+'
+elif score >= 70 :
+    grade = 'C'
+elif score >= 65 :
+    grade = 'D+'
+elif score >= 60 :
+    grade = 'D'
+else :
+    grade = 'F'
+print('{0}점은 "{1}" 학점입니다.'.format(score, grade))
+
+score = int(input('점수를 입력하세요 : ')) 
+if score >= 90 :
+    grade = 'A'
+elif score >= 80 :
+    grade = 'B'
+elif score >= 70 :
+    grade = 'C'
+elif score >= 60 :
+    grade = 'D'
+else :
+    grade = 'F'
+if score == 100:
+    grade += '+'
+elif score > 60 :
+    if (score % 10 >= 5) :
+        grade += '+'
+print('{0}점은 "{1}" 학점입니다.'.format(score, grade))
+
+score = int(input('점수를 입력하세요 : ')) 
+if score >= 90 :
+    grade = 'A'
+elif score >= 80 :
+    grade = 'B'
+elif score >= 70 :
+    grade = 'C'
+elif score >= 60 :
+    grade = 'D'
+else :
+    grade = 'F'
+if score == 100:
+    grade += '+'
+elif score > 60 :
+    if (score % 10 >= 5) :
+        grade += '+'
+if score > 100 or score < 0 :
+    print('점수는 0에서 100까지만 입력해야 합니다')
+else : 
+    print('{0}점은 "{1}" 학점입니다.'.format(score, grade))
+
