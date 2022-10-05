@@ -152,3 +152,9 @@ if score > 100 or score < 0 :
 else : 
     print('{0}점은 "{1}" 학점입니다.'.format(score, grade))
 
+# ex 4-11
+year = int(input('연도를 입력하세요 : '))
+if (((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0)) :
+    print('%d년은 윤년입니다.' % year)
+else : 
+    print('%d년은 평년입니다.' % year)
