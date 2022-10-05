@@ -68,6 +68,14 @@ elif money >= 1000:
 else : 
     print('공기나 마시자 ㅠ.ㅠ')
 
+money = int(input('지갑에 얼마 있습니까?  '))
+if (money >= 10000):
+    print('축제에서 사먹자~~')
+elif money >= 5000:
+    print('학식을 먹자')
+else : 
+    print('집에가서 라면먹자')
+
 # ex 4-7
 a = int(input('-10에서 10 사이의 정수를 입력하세요 : '))
 if a > 10 :
