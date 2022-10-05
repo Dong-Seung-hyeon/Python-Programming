@@ -217,3 +217,17 @@ if a > b :
     print("a = {0} b = {1}".format(a, b))
 else :
     print("a = {0} b = {1}".format(a, b))
+
+# 작은 수를 a에 큰 수를 b에 저장하는 예제 다른 방법
+print('작은 수를 a에 큰 수를 b에 저장하는 예제')
+a = int(input('a에 수를 입력하세요 : '))
+b = int(input('b에 수를 입력하세요 : '))
+if(a<b):
+    print("입력 a = %d, b = %d"%(a,b))
+    print("출력 a = %d, b = %d"%(a,b))
+else:
+    print("입력 a = %d, b = %d"%(a,b))
+    temp = a
+    a = b
+    b = temp
+    print("출력 a = %d, b = %d"%(a,b))
