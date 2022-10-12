@@ -51,10 +51,8 @@ for i in range(x, 0, -1) :
 # ex 4-24
 x = int(input('가로의 숫자를 입력하세요 : '))
 y = int(input('세로의 숫자를 입력하세요 : '))
-for i in range(1):
-    print('* ' * x)     
-    for j in range(y-1):        
-        print('* ' * x) 
+for i in range(0,y):
+    print('* ' * x) 
 print()
 
 # ex 4-25
@@ -87,3 +85,9 @@ num = 0
 while num < 5 :
     print('파이썬 프로그래밍!')
     num += 1
+
+# ex 4-29
+num = int(input('반복할 횟수 : '))
+i = 0
+while i < num :
+    print('파이썬 ')
