@@ -104,3 +104,10 @@ while i < num2+1 :
     i = i + num3
 print("%d에서 %d까지 %d씩 증가시킨 값의 합계 : %d" % (num1, num2, num3, hap))
 
+# ex 4-31
+import random
+i = 0
+while i != 5:
+    i = random.randint(1, 6)
+    print(i)
+print('드디어 ', i, '가 나왔네요~~')
