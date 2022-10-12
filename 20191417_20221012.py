@@ -1,4 +1,7 @@
 # ex 4-18
+from platform import java_ver
+
+
 L_1 = ['one', 'two', 'three']
 for i in L_1 :
     print(i)
@@ -46,6 +49,15 @@ for i in range(x, 0, -1) :
     print('⭐️ ' * i)
 
 # ex 4-24
+# x = int(input('가로의 숫자를 입력하세요 : '))
+# y = int(input('세로의 숫자를 입력하세요 : '))
+# x, y = map(int, input().strip().split(' '))
+# for i in range(y):            
+#     for j in range(x):        
+#         print('*', end='') 
+#     print()
+
+# ex 4-25
 x = int(input('숫자를 입력하세요 : '))
-for i in range(x, 0, -1):
-    print('⭐️ ' * i)
+for i in range(1, x+1, 1):
+    print((x-i) * ' '+'★ '* i)
