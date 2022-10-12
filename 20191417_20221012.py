@@ -111,3 +111,15 @@ while i != 5:
     i = random.randint(1, 6)
     print(i)
 print('드디어 ', i, '가 나왔네요~~')
+
+# ex 4-32
+hap, a, b = 0, 0, 0
+while True :
+    a = int(input("첫 번째 수를 입력하세요(0을 입력하면 종료) : "))
+    if a == 0 :
+        break
+    b = int(input("두 번째 수를 입력하세요 : "))
+    hap = a + b
+    print("%d + %d = %d" % (a, b, hap))
+
+print("0을 입력해 반복문을 탈출했습니다")
