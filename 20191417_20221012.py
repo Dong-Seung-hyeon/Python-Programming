@@ -91,3 +91,16 @@ num = int(input('반복할 횟수 : '))
 i = 0
 while i < num :
     print('파이썬 ')
+
+# ex 4-30
+i, hap = 0, 0
+num1, num2, num3 = 0, 0, 0
+num1 = int(input('시작 값을 입력하세요 : '))
+num2 = int(input('끝깞을 입력하세요 : '))
+num3 = int(input('증감값을 입력하세요 : '))
+i = num1
+while i < num2+1 :
+    hap = hap + i
+    i = i + num3
+print("%d에서 %d까지 %d씩 증가시킨 값의 합계 : %d" % (num1, num2, num3, hap))
+
