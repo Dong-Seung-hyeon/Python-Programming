@@ -61,3 +61,10 @@ for i in range(x, 0, -1) :
 x = int(input('숫자를 입력하세요 : '))
 for i in range(1, x+1, 1):
     print((x-i) * ' '+'★ '* i)
+
+# ex 4-26
+x = int(input('숫자를 입력하세요 : '))
+for i in range(1, x+1) :
+    if not (i % 5 == 0):
+        print(i, end = ' ')
+print()
