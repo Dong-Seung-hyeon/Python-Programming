@@ -5,7 +5,7 @@ for i in L_1 :
 L_2 = [(1, 5), (2, 6), (3, 7)]
 for (a, b) in L_2 :
     print(a + b)
-    
+
 # ex 4-19
 score = [90, 25, 67, 45, 80]
 number = 0
@@ -34,3 +34,8 @@ for s in score:
     if s >= 60:
         print("%d번 학생 축하합니다. 합격입니다." % number)
         break
+
+# ex 4-22
+x = int(input('숫자를 입력하세요 : '))
+for i in range(1, x+1):
+    print('⭐️ ' * I)
