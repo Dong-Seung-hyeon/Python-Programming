@@ -1,3 +1,11 @@
+# ex 4-18
+L_1 = ['one', 'two', 'three']
+for i in L_1 :
+    print(i)
+L_2 = [(1, 5), (2, 6), (3, 7)]
+for (a, b) in L_2 :
+    print(a + b)
+    
 # ex 4-19
 score = [90, 25, 67, 45, 80]
 number = 0
