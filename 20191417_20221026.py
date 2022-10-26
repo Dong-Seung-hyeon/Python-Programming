@@ -103,3 +103,11 @@ print('r2 = ', r2)
 
 r3 = add_m(1, 2, 3, 4, 5, 6)
 print('r3 = ', r3)
+
+# ex 6-13
+def value_times(times, *values):
+    for value in values:
+        print(times * value)
+
+value_times(3, 1, 2, 3, 4, 5)
+
