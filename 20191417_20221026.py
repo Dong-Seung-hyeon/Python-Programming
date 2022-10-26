@@ -164,3 +164,14 @@ while True:
         print("0으로 나누면 안됩니다.")
     else:
         print("## 계산기 : %d %s %d = %d" % (var1, oper, var2, res))
+
+# 람다 함수
+
+# ex 6-17
+def add(n, m):
+
+    return n + m
+print(add(2, 5))
+
+#람다함수로 작성
+print((lambda n, m: n + m)(2, 5))
