@@ -188,3 +188,32 @@ print('product1 = ', product1)
 from functools import reduce
 product2 = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 print('product2 = ', product2)
+
+# ex 6-19
+from functools import reduce
+def cube(y):
+    return y * y * y;
+
+g = lambda x: x * x * x
+print('print(g(7)) = ', g(7))
+
+print('print(cube(5)) = ', cube(5))
+
+# Python code to illustrate filter() with lambda()
+li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
+print('li = ', li)
+final_list = list(filter(lambda x: (x%2 != 0), li))
+print('print(final_list) = ', final_list)
+
+# map() with lambda() to get double of a list.
+li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
+final_list = list(map(lambda x: x*2 , li))
+print('print(final_list) = ', final_list)
+
+# reduce() with lambda() to get sum of a list
+li = [5, 8, 10, 20, 50, 100]
+sum = reduce((lambda x, y: x + y), li)
+print('print(sum) = ', sum)
+
+product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+print('print(product) = ', product)
