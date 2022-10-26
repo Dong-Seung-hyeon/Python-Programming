@@ -49,3 +49,10 @@ add_print(1, 9)
 hap = add_print(3, 4)
 print(hap)
 
+# ex 6-7
+def hi():
+    return "Hi 파이썬 프로그래밍"
+
+aha = hi()
+print(aha)
+
