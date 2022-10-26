@@ -56,3 +56,8 @@ def hi():
 aha = hi()
 print(aha)
 
+# ex 6-8
+def hi2():
+    print('Hi 파이썬 프로그래밍')
+
+hi2()
