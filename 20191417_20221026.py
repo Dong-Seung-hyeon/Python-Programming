@@ -40,3 +40,12 @@ two_times('abc')
 
 two_times([1, 2, 3])
 two_times((1, 2, 3))
+
+# ex 6-6
+def add_print(a, b):
+    print("%d, %d의 합은 %d입니다." % (a, b, a+b))
+
+add_print(1, 9)
+hap = add_print(3, 4)
+print(hap)
+
