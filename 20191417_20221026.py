@@ -31,3 +31,12 @@ def add_multi(n1, n2):
 result = add_multi(5, 10)
 print(result)
 
+# ex 6-5
+def two_times(n):
+    return print(n * 2)
+
+two_times(5)
+two_times('abc')
+
+two_times([1, 2, 3])
+two_times((1, 2, 3))
