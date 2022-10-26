@@ -23,3 +23,11 @@ def plus(v1, v2):
 hap = plus(100, 200)
 print(hap)
 print(plus.__doc__)
+
+# ex 6-4
+def add_multi(n1, n2):
+    return n1 + n2, n1 * n2
+
+result = add_multi(5, 10)
+print(result)
+
