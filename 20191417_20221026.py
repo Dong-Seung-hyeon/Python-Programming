@@ -61,3 +61,13 @@ def hi2():
     print('Hi 파이썬 프로그래밍')
 
 hi2()
+
+# 매개변수와 가변매개변수
+
+#ex 6-9
+def student_info(name, phone, id_no='비공개'):
+    print('이름: ', name)
+    print('휴대폰: ', phone)
+    print('주민번호: ', id_no)
+
+student_info('김철수', '010-1234-5678')
