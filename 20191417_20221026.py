@@ -87,3 +87,19 @@ def student_info(name, id_no='비공개', phone):
     print('주민번호: ', id_no)
 
 student_info('김철수', '010-1234-5678')
+
+# ex 6-12
+def add_m(*args):
+    result = 0
+    for i in args:
+        result = result + i
+    return result
+
+r1 = add_m(1, 2, 3)
+print('r1 = ', r1)
+
+r2 = add_m(1, 2, 3, 4)
+print('r2 = ', r2)
+
+r3 = add_m(1, 2, 3, 4, 5, 6)
+print('r3 = ', r3)
