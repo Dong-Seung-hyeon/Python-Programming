@@ -175,3 +175,16 @@ print(add(2, 5))
 
 #람다함수로 작성
 print((lambda n, m: n + m)(2, 5))
+
+# ex 6-18
+# reduce()를 사용하지 않는 경우
+product1 = 1
+list = [1, 2, 3, 4]
+for num in list:
+    product1 = product1 * num
+print('product1 = ', product1)
+
+# reduce()를 사용하는 경우
+from functools import reduce
+product2 = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+print('product2 = ', product2)
