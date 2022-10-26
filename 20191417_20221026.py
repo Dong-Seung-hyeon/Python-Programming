@@ -81,12 +81,12 @@ def student_info(name, phone, id_no='비공개'):
 student_info('김철수', '010-1234-5678', '20200101-3145312')
 
 # ex 6-11
-def student_info(name, id_no='비공개', phone):
-    print('이름: ', name)
-    print('휴대폰: ', phone)
-    print('주민번호: ', id_no)
+# def student_info(name, id_no='비공개', phone):
+#     print('이름: ', name)
+#     print('휴대폰: ', phone)
+#     print('주민번호: ', id_no)
 
-student_info('김철수', '010-1234-5678')
+# student_info('김철수', '010-1234-5678')
 
 # ex 6-12
 def add_m(*args):
@@ -110,4 +110,16 @@ def value_times(times, *values):
         print(times * value)
 
 value_times(3, 1, 2, 3, 4, 5)
+
+# 지역 변수와 전역 변수
+
+# ex 6-14
+def f_a() :
+    num = 20
+    print("f_a()의 num값 %d" % num)
+def f_b() :
+    print("f_b()의 num값 %d" % num)
+num = 10
+f_a()
+f_b()
 
