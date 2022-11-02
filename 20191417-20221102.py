@@ -53,3 +53,15 @@ print('-' * 50)
 
 for student in students:
     print(student.to_print())
+
+# ex 7-4
+class PythonSchool:
+    def __init__(self, name, email, phone):
+
+        self.name = name
+        self.email = email
+        self.phone = phone
+    def printStud(self):
+        print("이름: ", self.name)
+        print("이메일: ", self.email)
+        print("전화번호: ", self.phone)
