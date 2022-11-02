@@ -87,3 +87,22 @@ student1.printStudent()
 del student1
 # student1.printStudent()
 
+# ex 7-6
+class PythonSchool:
+    def __init__(self, name, email, phone):
+        self.name = name
+        self.email = email
+        self.phone = phone
+    def printStud(self):
+        print("이름: ", self.name)
+        print("이메일: ", self.email)
+        print("전화번호: ", self.phone)
+    def __del__(self):
+        print(self.name, "객체가 소멸되었습니다.")
+    def __repr__(self):
+        return self.name
+
+student1 = PythonSchool("Hong Kildong", "hong1234@email.net", "010-1234-5678")
+student1.printStud()
+print(student1)
+del student1
