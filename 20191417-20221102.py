@@ -27,3 +27,29 @@ print()
 print("학생2의 이름 = ", student2.name)
 print("학생2의 email = ", student2.email)
 print("학생2의 phone = ", student2.phone)
+
+# ex 7-3
+class Student:
+    def __init__(self, name, email, phone):
+        self.name = name
+        self.email = email
+        self.phone = phone
+
+    def to_print(self):
+        return "{}\t{}\t{}".format(
+            self.name,
+            self.email,
+            self.phone
+        )
+
+student = [
+    Student("홍길동", "hong1234@email.net", "010-1234-5678"),
+    Student("김철수", "kim1234@gmail.com", "010-3456-7890"),
+    Student("홍길동", "hong1234@email.net", "010-2345-6789"),
+    Student("김철수", "kim1234@gmail.com", "010-4567-7890")
+]
+print("이름", "email", "phone", sep='\t\t')
+print('-' * 50)
+
+for student in students:
+    print(student.to_print())
