@@ -126,3 +126,18 @@ del student1
 print(f"수강신청철회한 학생이 발생한 이후의 등록학생수: {Registration.regi_num}")
 print()
 print(student2.name)
+
+# ex 7-9
+class UnderSelf:
+    def meth1(self):
+        print("python 1")
+
+    def meth2(self):
+        print("python 2")
+
+s1 = UnderSelf()
+s2 = UnderSelf()
+s1.meth1()
+print('id(s1) = ', id(s1))
+s2.meth2()
+print('id(s2) = ', id(s2))
