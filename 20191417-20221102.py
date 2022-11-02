@@ -42,7 +42,7 @@ class Student:
             self.phone
         )
 
-student = [
+students = [
     Student("홍길동", "hong1234@email.net", "010-1234-5678"),
     Student("김철수", "kim1234@gmail.com", "010-3456-7890"),
     Student("홍길동", "hong1234@email.net", "010-2345-6789"),
@@ -65,3 +65,6 @@ class PythonSchool:
         print("이름: ", self.name)
         print("이메일: ", self.email)
         print("전화번호: ", self.phone)
+
+student1 = PythonSchool("Hong kildong", "hong1234@email.com", "010-1234-5678")
+student1.printStud()
