@@ -124,3 +124,5 @@ print(student2.name)
 print(Registration.regi_num)
 del student1
 print(f"수강신청철회한 학생이 발생한 이후의 등록학생수: {Registration.regi_num}")
+print()
+print(student2.name)
