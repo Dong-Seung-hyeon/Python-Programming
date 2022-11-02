@@ -106,3 +106,21 @@ student1 = PythonSchool("Hong Kildong", "hong1234@email.net", "010-1234-5678")
 student1.printStud()
 print(student1)
 del student1
+
+# ex 7-8
+class Registration:
+    regi_num = 0
+    def __init__(self, name):
+        self.name = name
+        Registration.regi_num += 1
+    def __del__(self):
+        Registration.regi_num -= 1
+
+student1 = Registration("홍길동")
+student2 = Registration("김철수")
+
+print(student1.name)
+print(student2.name)
+print(Registration.regi_num)
+del student1
+print(f"수강신청철회한 학생이 발생한 이후의 등록학생수: {Registration.regi_num}")
