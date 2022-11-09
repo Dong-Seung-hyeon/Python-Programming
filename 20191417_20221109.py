@@ -13,4 +13,8 @@ def factorial(n):
 
 print("5! = ", factorial(5))
 
-# ex 8-
+# ex 8-3
+import math
+
+a= math.factorial(5)
+print("5! = ", a)
