@@ -41,3 +41,10 @@ b = sqrt(4)
 
 print('m.pow(2, 3) = ', a)
 print('sqrt(4) = ', b)
+
+# ex 8-9
+from math import pow as p
+
+a = p(2, 3)
+
+print('p(2, 3 = ', a)
