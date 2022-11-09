@@ -82,3 +82,8 @@ import pickle
 list = ['a', 'b', 'c']
 with open('list.txt', 'wb') as f:
     pickle.dump(list, f)
+
+with open('list.txt', 'rb') as f:
+    data = pickle.load(f) # 한 줄씩 읽어옴
+
+print(data)
