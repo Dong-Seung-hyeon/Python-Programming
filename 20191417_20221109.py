@@ -75,3 +75,5 @@ import plusminus
 text = '동승현!!'
 with open('python.txt', 'w') as p:
     p.write(text)
+
+# ex 8-
