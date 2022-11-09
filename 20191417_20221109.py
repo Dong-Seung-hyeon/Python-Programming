@@ -23,3 +23,13 @@ from math import factorial
 a= factorial(5)
 print("5! = ", a)
 
+# ex 8-4
+from math import comb
+# from math import *
+b = comb(5, 2)
+print('5 Combination 2 = ', b)
+
+# ex 8-6
+from math import *
+print(pi)
+
