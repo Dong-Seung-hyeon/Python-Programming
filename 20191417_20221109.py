@@ -50,14 +50,14 @@ a = p(2, 3)
 print('p(2, 3 = ', a)
 
 # ex 8-10
-from math import pow as p, aqrt as s
+# from math import pow as p, aqrt as s
 
-a = p(2, 3)
-b = s(4)
-print('p(2, 3) = ', a)
-print('s(4) = ', b)
+# a = p(2, 3)
+# b = s(4)
+# print('p(2, 3) = ', a)
+# print('s(4) = ', b)
 
-# ex 8-10
+# ex 8-
 import importlib
 import math
 
@@ -67,8 +67,6 @@ importlib.reload(math)
 import plusminus
 print(plusminus.plus(1, 2))
 
-importlib.reload(plusminus)
-import plusminus
-# del plusminus
-Chapter 08 모듈 예제 8-
-❤️
+# importlib.reload(plusminus)
+# import plusminus
+# # del plusminus
