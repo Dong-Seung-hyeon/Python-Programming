@@ -57,7 +57,7 @@ print('p(2, 3 = ', a)
 # print('p(2, 3) = ', a)
 # print('s(4) = ', b)
 
-# ex 8-
+# ex 8-10
 import importlib
 import math
 
@@ -67,6 +67,6 @@ importlib.reload(math)
 import plusminus
 print(plusminus.plus(1, 2))
 
-# importlib.reload(plusminus)
-# import plusminus
+importlib.reload(plusminus)
+import plusminus
 # # del plusminus
