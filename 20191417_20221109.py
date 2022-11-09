@@ -33,3 +33,11 @@ print('5 Combination 2 = ', b)
 from math import *
 print(pi)
 
+# ex 8-7
+from math import pow, sqrt
+
+a = pow(2, 3)
+b = sqrt(4)
+
+print('m.pow(2, 3) = ', a)
+print('sqrt(4) = ', b)
