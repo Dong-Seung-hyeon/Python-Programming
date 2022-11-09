@@ -76,4 +76,9 @@ text = '동승현!!'
 with open('python.txt', 'w') as p:
     p.write(text)
 
-# ex 8-
+# ex 8-20
+import pickle
+
+list = ['a', 'b', 'c']
+with open('list.txt', 'wb') as f:
+    pickle.dump(list, f)
