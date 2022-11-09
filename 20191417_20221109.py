@@ -70,3 +70,8 @@ print(plusminus.plus(1, 2))
 importlib.reload(plusminus)
 import plusminus
 # # del plusminus
+
+# ex 8-18
+text = '동승현!!'
+with open('python.txt', 'w') as p:
+    p.write(text)
