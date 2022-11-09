@@ -87,3 +87,12 @@ with open('list.txt', 'rb') as f:
     data = pickle.load(f) # 한 줄씩 읽어옴
 
 print(data)
+
+# ex 8-23
+import mymod
+
+print('PI = ', mymod.PI)
+a = mymod.Circle()
+print('반지름이 5일 때 원의 넓이 = ', a.com1(5))
+
+print(mymod.com2(2, 3))
