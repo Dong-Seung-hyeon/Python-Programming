@@ -1,7 +1,8 @@
 # ex 8-1
-import math
-print(dir(math))
+# import math
+# print(dir(math))
 
+#ex 8-2
 def factorial(n):
 
     result = 1
@@ -11,3 +12,5 @@ def factorial(n):
     return result
 
 print("5! = ", factorial(5))
+
+# ex 8-
