@@ -42,3 +42,23 @@ with open("car.csv", "r") as f:
         price = row[2]
 
         print(names, makers, price)
+
+# ex 9-7
+def divide(x, y):
+
+    try:
+        result = x/ y
+
+    except ZeroDivisionError as zero_div_err:
+        print("0으로 나눌 수 없습니다.", zero_div_err)
+
+    else:
+        print("정상적으로 나눗셈이 실행되었습니다. 결과는 =", result)
+
+    finally:
+        print("\n프로그램을 종료합니다.")
+
+input_a = int(input('피제수를 입력해 주세요: '))
+input_b = int(input('제수를 입력해 주세요: '))
+print()
+divide(input_a, input_b)
