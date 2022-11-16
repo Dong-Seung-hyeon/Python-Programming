@@ -14,14 +14,14 @@ read = file.read()
 print(read)
 
 # ex 9-4
-file = open("test1.txt", "x")
-file.write('대한민국 만세!!')
-file.close()
+# file = open("test1.txt", "x")
+# file.write('대한민국 만세!!')
+# file.close()
 
-file = open("test1.txt", "r")
-read = file.read()
-print(read)
-file.close()
+# file = open("test1.txt", "r")
+# read = file.read()
+# print(read)
+# file.close()
 
 # ex 9-6
 with open('test1.txt', 'x') as file:
