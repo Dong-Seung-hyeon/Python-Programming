@@ -20,3 +20,25 @@ with open('test1.txt', 'x') as file:
 with open("test1.txt", 'r') as file:
     read = file.read()
     print(read)
+
+# ex 9
+import csv
+listing = [['소나타', '현대', 22965],
+['아이오닉', '현대', 23735],
+['프리우스', '도요타', 24615],
+['아맅마', '닛산', 23185],
+['말리부', 'GM', 24645],
+['티볼리', '쌍용', 24765]]
+
+with open("car.csv", "w", newline='') as f:
+    car_writer = csv.writer(f)
+    car_writer.writerows(listing)
+
+with open("car.csv", "r") as f:
+    car_reader = csv.reader(f)
+    for row in car_reader:
+        names = row[0]
+        makers = row[1]
+        price = row[2]
+
+        print(names, makers, price)
