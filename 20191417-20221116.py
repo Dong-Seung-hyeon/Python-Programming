@@ -22,3 +22,11 @@ file = open("test1.txt", "r")
 read = file.read()
 print(read)
 file.close()
+
+# ex 9-6
+with open('test1.txt', 'x') as file:
+    file.write('대한민국 만세!!!')
+
+with open("test1.txt", 'r') as file:
+    read = file.read()
+    print(read)
