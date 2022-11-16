@@ -102,4 +102,11 @@ print("round(2.7) = ", round(2.7))
 print("round(3.5) = ", round(3.5))
 print("round(0.5) = ", round(0.5))
 
-# ex 10-2
+# ex 10-3
+import math
+
+print("math.fab(-2) = ", math.fabs(-2))
+print("math.ceil(2.1) = ", math.celi(2.1))
+print("math.celi(-2.1) = ", math.celi(-2.1))
+print("math.floor(2.1) = ", math.floor(2.1))
+print("math.floor(-2.1) = ", math.floor(-2.1))
