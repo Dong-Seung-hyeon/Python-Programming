@@ -14,12 +14,12 @@ read = file.read()
 print(read)
 
 # ex 9-6
-# with open('test1.txt', 'x') as file:
-#     file.write('대한민국 만세!!!')
+with open('test1.txt', 'x') as file:
+    file.write('대한민국 만세!!!')
 
-# with open("test1.txt", 'r') as file:
-#     read = file.read()
-#     print(read)
+with open("test1.txt", 'r') as file:
+    read = file.read()
+    print(read)
 
 # ex 9
 import csv
@@ -96,6 +96,10 @@ print("pow(2, 3) = ", pow(2, 3))
 
 #소수점을 가까운 정수까지 반올림, 버림하여 반환한다.
 print("round(2.5) = ", round(2.5))
+print("round(2.7) = ", round(2.7))
 
 #소수점을 가까운 정수까지 반올림, 버림하여 반환한다.
 print("round(3.5) = ", round(3.5))
+print("round(0.5) = ", round(0.5))
+
+# ex 10-2
