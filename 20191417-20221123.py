@@ -1,5 +1,5 @@
 #ex 10-10
-import urlib.request
+import urllib.request
 
 address = urllib.request
 check = address.urlopen("https://www.naver.com")
