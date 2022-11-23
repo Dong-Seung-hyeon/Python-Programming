@@ -45,3 +45,20 @@ print()
 print(d.strftime('%Y-%m-%d'))
 print(d.strftime('%c'))
 
+t = time.time()
+time.sleep(10)
+
+t2 = time.time()
+
+spendtime = t2 - t
+spendtime = int(spendtime)
+
+print("Before timestemp: ", t)
+print("After timestemp: ", t2)
+print("Wait {} seconds".format(spendtime))
+
+import numpy as np
+
+ar = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+print(ar)
+print(type(ar))
