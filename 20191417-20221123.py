@@ -62,3 +62,15 @@ import numpy as np
 ar = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 print(ar)
 print(type(ar))
+
+data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+answer = []
+for di in data:
+    answer.append(2 * di)
+print(data)
+print(answer)
+
+print()
+x = np.array(data)
+print(x)
+print(x * 2)
