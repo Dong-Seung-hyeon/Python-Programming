@@ -12,7 +12,7 @@ icheck = address.urlopen("http://www.pythonchallenge.com/")
 print(icheck.read().decode('utf-8'))
 
 import urllib.parse
-parse = urllib.parse.urlparse()
+parse = urllib.parse.urlparse('http://www.sungkyul.ac.kr')
 print(parse)
 
 # ex 10-15
@@ -30,3 +30,18 @@ print(time_UTC)
 
 time_local = time.localtime(t)
 print(time_local)
+print(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+print(time.strftime('%c', time.localtime(time.time())))
+print(time.strftime('%B', time.localtime(time.time())))
+print(time.strftime('%Z', time.localtime(time.time())))
+
+import datetime
+
+print(datetime.datetime.today())
+print(datetime.datetime(2022, 11, 23))
+print(datetime.datetime.strptime('2020-11-23', '%Y-%m-%d'))
+d = datetime.datetime(2022, 11, 23)
+print()
+print(d.strftime('%Y-%m-%d'))
+print(d.strftime('%c'))
+
