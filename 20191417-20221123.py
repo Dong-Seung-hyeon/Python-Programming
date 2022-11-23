@@ -21,3 +21,12 @@ rp = urllib.robotparser.RobotFileParser('http://www.sungkyul.ac.kr')
 rp.read()
 print(rp.can_fetch('mycrawler', 'http://www.sungkyul.ac.kr'))
 
+# ex 10-16
+import time
+t = time.time()
+print(t)
+time_UTC = time.gmtime(t)
+print(time_UTC)
+
+time_local = time.localtime(t)
+print(time_local)
