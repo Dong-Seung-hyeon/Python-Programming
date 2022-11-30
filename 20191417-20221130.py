@@ -1,4 +1,5 @@
 # ex 10-37
+from curses import ACS_S3
 import numpy as np
 
 a = np.array([0, 1, 2, 3, 4, ])
@@ -42,3 +43,10 @@ a2 = np.array([11, 22, 33, 44, 55, 66, 77, 88, 99])
 idx = np.array([0,0,0,0,0,0, 1, 1, 1, 1, 1, 2, 2, 2, 2, ])
 print(all[idx])
 
+# ex 10-44
+a3 = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+print(a3)
+print(a3[:, [True, False, False, True]])
+print(a3[[2, 0, 1], :])
+
+# ex 10-45
