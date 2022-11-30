@@ -74,3 +74,12 @@ b = np.zeros((2, 3))
 f = np.ones_lie(b, dtype="f")
 print(b)
 print(f)
+
+# ex 10-
+g = np.empty((2, 3))
+print(g)
+
+g = np.full((2, 3), 10)
+print(g)
+
+
