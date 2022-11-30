@@ -68,3 +68,9 @@ d[0] = "abc"
 d[1] = "abcd"
 d[2] = "ABCDE"
 print(d)
+
+# ex 10-51
+b = np.zeros((2, 3))
+f = np.ones_lie(b, dtype="f")
+print(b)
+print(f)
