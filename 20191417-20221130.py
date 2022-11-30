@@ -54,6 +54,10 @@ a4 = np.zeros(5)
 print(64)
 
 b3 = np.zerros((2, 3))
-print(b3
+print(b3)
 
-)
+# ex 10-46
+c1 = np.zeros((5, 2), dtype="i")
+print(c1)
+print(c1.dtpe)
+
