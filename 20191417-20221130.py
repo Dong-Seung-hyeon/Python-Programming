@@ -101,3 +101,47 @@ print(np.eye(3, k=-1))
 
 print(np.arange(20))
 print(np.arange(20).reshape(4,5))
+
+from urllib import request
+from bs4 import BeautifulSoup
+target=request.urlopen("https://www.sungkyul.ac.kr/skukr/342/subview.do")
+soup=BeautifulSoup(target, 'html.parser')
+title=soup.findAll('td', {'class':'td-subject'})
+for i in range(10):
+    print(title[i].text)
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(1, 11)
+y = x * 10
+
+plt.plot(x,y)
+
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x_values = [0, 1, 2, 3, 4]
+y_values = [0, 1, 4, 9, 16]
+plt.plot(x_values, y_values, 'k^-')
+plt.rc("font", family = "Gothic")
+plt.title("예제 10-61")
+plt.xlabel('x line')
+plt.ylabel('y line')
+
+plt.show()
+
+x = np.arange(1,5,0.5)
+
+y = x * 10
+y2 = 50 - (x * 10)
+
+plt.plot(x, y, 'r', label='red')
+
+plt.plot(x, y2, 'k', label='black')
+
+plt.legend(loc=1)
+
+plt.show()
