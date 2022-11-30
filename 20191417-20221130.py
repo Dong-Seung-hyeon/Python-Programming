@@ -20,3 +20,9 @@ print(b[:, 1]) # 두번째 열 전체
 print(b[1, 1:]) # 두번째 행의 두번째 열부터 끝열까지
 print(b[:2, :2]) # 모든 행의 두번째 열까지
 
+# ex 10-40
+c = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+idx = np.array([True, False, True, False, True, 
+                False, True, False, True, False])
+print(c[idx])
+
