@@ -26,3 +26,14 @@ idx = np.array([True, False, True, False, True,
                 False, True, False, True, False])
 print(c[idx])
 
+# ex 10-41
+d = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+print(d % 2)
+print( d % 2 == 0 )
+print(d[d % 2 == 0])
+
+# ex 10-42
+a11 = np.array([11, 22, 33, 44, 55, 66, 77, 88, 99])
+idx = np.array([0, 2, 4, 6, 8])
+print(a11[idx])
+
