@@ -1,5 +1,4 @@
 # ex 10-37
-from curses import ACS_S3
 import numpy as np
 
 a = np.array([0, 1, 2, 3, 4, ])
@@ -82,4 +81,23 @@ print(g)
 g = np.full((2, 3), 10)
 print(g)
 
+print(np.arange(10))            # 0 .. n-1
+print(np.arange(2, 19, 2))      # 시작, 끝(포함하지 않음), 증감값
+print(np.arange(19, 2, -2))
 
+a5 = np.linspace(10, 20, 5, endpoint = False)   # 시작, 끝(포함), 개수
+b2 = np.linspace(1, 2, 5, retstep = True)       #retstep을 이용하여 증감값
+print(a5)
+print(b2)
+
+a6 = np.logspace(1, 10, 10, base=2)     # 시작, 끝(포함), 개수, 2를 base로 
+print(a6)
+
+print(np.eye(3))
+print()
+print(np.eye(3, k=1))
+print()
+print(np.eye(3, k=-1))
+
+print(np.arange(20))
+print(np.arange(20).reshape(4,5))
