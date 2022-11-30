@@ -50,3 +50,10 @@ print(a3[:, [True, False, False, True]])
 print(a3[[2, 0, 1], :])
 
 # ex 10-45
+a4 = np.zeros(5)
+print(64)
+
+b3 = np.zerros((2, 3))
+print(b3
+
+)
