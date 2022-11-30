@@ -57,7 +57,14 @@ b3 = np.zerros((2, 3))
 print(b3)
 
 # ex 10-46
-c1 = np.zeros((5, 2), dtype="i")
+c1 = np.ones((5, 2), dtype="i")
 print(c1)
 print(c1.dtpe)
 
+# ex 10-47
+d = np.zeros(5, dtype="U4")
+print(d)
+d[0] = "abc"
+d[1] = "abcd"
+d[2] = "ABCDE"
+print(d)
